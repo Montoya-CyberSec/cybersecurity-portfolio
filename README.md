@@ -89,7 +89,8 @@ Ingeniero en Telecomunicaciones y Máster en Ciberseguridad. Actualmente me dese
 
 - **LinkedIn:** [linkedin.com/in/cristian-montoya-cyber](https://www.linkedin.com/in/cristian-montoya-cyber) *(personaliza tu URL)*
 - **GitHub:** [github.com/Montoya-CyberSec](https://github.com/Montoya-CyberSec)
-- **Email:** `montoya.networksec [arroba] gmail [punto] com` (ofuscado)
+
+---
 
 📢 **Busco oportunidades como OSI, Auditor Interno o Consultor GRC en cualquier sector que valore una seguridad resiliente y alineada al negocio.** Si mi perfil encaja con tu búsqueda, contáctame.
 ---
