@@ -30,7 +30,7 @@ Bienvenido a mi portafolio profesional. Este repositorio demuestra mis habilidad
 - **Técnicas:** Identificación de formato, hashes SHA-256, extracción de metadatos EXIF, esteganografía (`steghide`, `binwalk`), extracción manual por offset (`dd`).
 - **Herramientas:** Kali Linux, `file`, `exiftool`, `steghide`, `binwalk`, `dd`, `sha256sum`, HxD, PowerShell.
 - **Resultado:** Recuperación completa de un archivo PNG oculto dentro de una imagen JPEG sin alterar la evidencia.
-- [📄 Ver informe completo](./01-forensic-analysis-jpeg/README.md)
+- [📄 Ver informe completo](./01-forensic-analysis-jpeg/o1_report-forensic-analysis.pdf)
 
 ### 2. 📋 Plan Director de Seguridad (próximamente)
 - Basado en mi TFM (completamente anonimizado). Incluye análisis de riesgos MAGERIT, roadmap 3 años, políticas ISO 27001 y matriz de cumplimiento LOPD. Aplicable a entidades financieras, tecnológicas o industriales.
