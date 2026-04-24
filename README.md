@@ -87,7 +87,7 @@ Ingeniero en Telecomunicaciones y Máster en Ciberseguridad. Actualmente me dese
 
 ## 🔗 Contacto profesional
 
-- **LinkedIn:** [linkedin.com/in/cristian-montoya-cyber](https://www.linkedin.com/in/cristian-montoya-cyber) *(personaliza tu URL)*
+- **LinkedIn:** [linkedin.com/in/cristian-montoya-cyber](https://www.linkedin.com/in/cristian-montoya-cyber)
 - **GitHub:** [github.com/Montoya-CyberSec](https://github.com/Montoya-CyberSec)
 
 ---
