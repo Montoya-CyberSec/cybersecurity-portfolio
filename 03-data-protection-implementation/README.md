@@ -8,15 +8,13 @@ El programa incluye el diagnóstico de brechas, la estructura de gobernanza, la 
 
 ## 📂 Documentos incluidos
 
-| Documento | Descripción | Formato |
-|-----------|-------------|---------|
-| **Plan de Implementación del Programa de Protección de Datos** | Hoja de ruta estratégica: contexto normativo, diagnóstico de brechas, ejes de implementación (gobernanza, RAT, políticas, gestión de riesgos, seguridad técnica, cultura), priorización de acciones, modelo de ejecución, seguimiento y mejora continua. | PDF (descargable) |
-| **Matriz RASCI** | Asignación de roles (Responsable, Aprobador, Consultado, Informado) para 18 actividades clave del programa, incluyendo la separación de funciones entre DPD, TI, proveedores y áreas de negocio. | *(próximamente en Markdown)* |
-| **Roadmap (cronograma Gantt)** | Fases de implementación: gobernanza → diagnóstico → instrumentos → controles → cultura → seguimiento, con plazos estimados. | *(próximamente en Markdown/PDF)* |
-
-> 📄 **Enlace directo al Plan de Implementación:**  
-> [`plan-implementacion-proteccion-datos-BANCODEMO.pdf`](./plan-implementacion-proteccion-datos-BANCODEMO.pdf)
-
+| Documento | Descripción | Formato / Enlace |
+|-----------|-------------|------------------|
+| **Plan de Implementación del Programa de Protección de Datos** | Hoja de ruta estratégica: contexto normativo, diagnóstico de brechas, ejes de implementación (gobernanza, RAT, políticas, gestión de riesgos, seguridad técnica, cultura), priorización de acciones, modelo de ejecución, seguimiento y mejora continua. | [PDF](./plan-implementacion-proteccion-datos-BANCODEMO.pdf) |
+| **Matriz RASCI** | Asignación de roles (Responsable, Aprobador, Consultado, Informado) para 18 actividades clave del programa, incluyendo la separación de funciones entre DPD, TI, proveedores y áreas de negocio. | [Markdown](./matriz-RASCI.md) |
+| **Anexo A – Cumplimiento normativo y checklist SPDP** | Estado de cumplimiento frente a la LOPDP, nivel de riesgo y acciones recomendadas. | [Markdown](./anexo-A-checklist-SPDP.md) |
+| **Anexo B – Matriz de brechas y plan de acción** | 25 brechas priorizadas por criticidad, con acción correctiva, responsable y plazo. | [Markdown](./anexo-B-matriz-brechas.md) |
+| **Anexo C – Roadmap de implementación** | Cronograma detallado por fases (Gantt + tabla de hitos). | [Markdown](./anexo-C-roadmap.md) |
 ## 🛠️ Metodologías y marcos aplicados
 
 - **LOPDP (Ley Orgánica de Protección de Datos Personales – Ecuador)** – Base legal.
