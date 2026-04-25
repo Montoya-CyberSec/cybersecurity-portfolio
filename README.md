@@ -35,16 +35,22 @@ Bienvenido a mi portafolio profesional. Este repositorio demuestra mis habilidad
 ### 2. 📋 Plan Director de Seguridad (próximamente)
 - Basado en mi TFM (completamente anonimizado). Incluye análisis de riesgos MAGERIT, roadmap 3 años, políticas ISO 27001 y matriz de cumplimiento LOPD. Aplicable a entidades financieras, tecnológicas o industriales.
 
-### 3. 📊 Monitorización y Data Mining con Splunk
+### 3. 📋 Programa de Protección de Datos Personales – Caso Banco Demo S.A.
+- **Rol:** Delegado de Protección de Datos (DPD) en entidad financiera ficticia.
+- **Entregables:** Plan de Implementación (PDF), Matriz RASCI, Anexos de cumplimiento (LOPDP, brechas), Roadmap con Gantt.
+- **Metodologías:** LOPDP, ISO 27701, MAGERIT v3.0, NIST CSF.
+- [📁 Ver proyecto completo](./03-data-protection-implementation/)
+  
+### 4. 📊 Monitorización y Data Mining con Splunk
 - Construcción de dashboards para detección de intentos de login fallidos, tráfico anómalo y alertas en tiempo real. Consultas SPL y análisis de tendencias.
 
-### 4. 🔐 Políticas de Protección de Datos (LOPD/GDPR)
+### 5. 🔐 Políticas de Protección de Datos (LOPD/GDPR)
 - Documento de Delegado de Protección de Datos (DPD), registro de actividades de tratamiento (RAT), evaluación de impacto (EIPD) y gap analysis.
 
-### 5. 🦠 Análisis de malware (próximamente)
+### 6. 🦠 Análisis de malware (próximamente)
 - Informe de análisis de muestra pública (sandbox, procesos, llamadas al sistema, reglas YARA).
 
-### 6. 🔒 Criptografía aplicada (próximamente)
+### 7. 🔒 Criptografía aplicada (próximamente)
 - Guía de implementación de hashes, cifrado simétrico/asimétrico, PKI y comandos prácticos con OpenSSL.
 
 *(Más proyectos en construcción – revisa periódicamente)*
