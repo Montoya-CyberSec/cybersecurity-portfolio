@@ -16,7 +16,7 @@ Este proyecto demuestra un flujo de trabajo completo de **análisis forense digi
 
 | Documento | Descripción | Formato |
 |-----------|-------------|---------|
-| Informe completo de análisis forense | Adquisición, análisis de disco (Autopsy), análisis de memoria (Volatility), correlación de hallazgos, conclusiones. | [PDF](./analisis-forense-disco-memoria.pdf) |
+| Informe completo de análisis forense | Adquisición, análisis de disco (Autopsy), análisis de memoria (Volatility), correlación de hallazgos, conclusiones. | [PDF](./02-forensic-disk-memory-analysis.pdf) |
 
 ## 🎯 Resultados clave
 
