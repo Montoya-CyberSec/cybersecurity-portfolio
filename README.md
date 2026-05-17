@@ -32,25 +32,31 @@ Bienvenido a mi portafolio profesional. Este repositorio demuestra mis habilidad
 - **Resultado:** Recuperación completa de un archivo PNG oculto dentro de una imagen JPEG sin alterar la evidencia.
 - [📄 Ver informe completo](./01-forensic-analysis-jpeg/01_report-forensic-analysis.pdf)
 
-### 2. 📋 Plan Director de Seguridad (próximamente)
+### 2. 🖥️ Análisis forense de disco y memoria RAM
+- **Técnicas:** Adquisición forense (FTK Imager, DumpIt), análisis de sistema de archivos (Autopsy), análisis de memoria (Volatility), correlación de evidencias.
+- **Herramientas:** FTK Imager, Autopsy, Volatility, DumpIt, PowerShell.
+- **Resultado:** Recuperación de archivos eliminados, identificación de historial web, detección de procesos activos en memoria, verificación con SHA-256.
+- [📂 Ver proyecto completo](./02-forensic-disk-memory-analysis/)
+
+### 3. 📋 Plan Director de Seguridad (próximamente)
 - Basado en mi TFM (completamente anonimizado). Incluye análisis de riesgos MAGERIT, roadmap 3 años, políticas ISO 27001 y matriz de cumplimiento LOPD. Aplicable a entidades financieras, tecnológicas o industriales.
 
-### 3. 📋 Programa de Protección de Datos Personales – Caso Banco Demo S.A.
+### 4. 📋 Programa de Protección de Datos Personales – Caso Banco Demo S.A.
 - **Rol:** Delegado de Protección de Datos (DPD) en entidad financiera ficticia.
 - **Entregables:** Plan de Implementación (PDF), Matriz RASCI, Anexos de cumplimiento (LOPDP, brechas), Roadmap con Gantt.
 - **Metodologías:** LOPDP, ISO 27701, MAGERIT v3.0, NIST CSF.
 - [📁 Ver proyecto completo](./03-data-protection-implementation/)
   
-### 4. 📊 Monitorización y Data Mining con Splunk
+### 5. 📊 Monitorización y Data Mining con Splunk
 - Construcción de dashboards para detección de intentos de login fallidos, tráfico anómalo y alertas en tiempo real. Consultas SPL y análisis de tendencias.
 
-### 5. 🔐 Políticas de Protección de Datos (LOPD/GDPR)
+### 6. 🔐 Políticas de Protección de Datos (LOPD/GDPR)
 - Documento de Delegado de Protección de Datos (DPD), registro de actividades de tratamiento (RAT), evaluación de impacto (EIPD) y gap analysis.
 
-### 6. 🦠 Análisis de malware (próximamente)
+### 7. 🦠 Análisis de malware (próximamente)
 - Informe de análisis de muestra pública (sandbox, procesos, llamadas al sistema, reglas YARA).
 
-### 7. 🔒 Criptografía aplicada (próximamente)
+### 8. 🔒 Criptografía aplicada (próximamente)
 - Guía de implementación de hashes, cifrado simétrico/asimétrico, PKI y comandos prácticos con OpenSSL.
 
 *(Más proyectos en construcción – revisa periódicamente)*
