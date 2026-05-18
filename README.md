@@ -50,14 +50,17 @@ Bienvenido a mi portafolio profesional. Este repositorio demuestra mis habilidad
 - **Resultado:** Identificación de comportamientos de ransomware (eliminación de backups, cifrado de archivos, desactivación de defensas, persistencia).
 - [📂 Ver proyecto completo](./04-siem-splunk-ransomware-hive/)
 
-### 5. 📋 Plan Director de Seguridad (próximamente)
+### 5. 🦠 Análisis de malware (CryptoLocker, troyano y .NET loader)
+- **Técnicas:** Análisis estático y dinámico, hashing MD5/Imphash, extracción de IoCs, inspección de importaciones/recursos, monitorización de red/registro/procesos, decompilación con dnSpy.
+- **Herramientas:** VirusTotal, Hybrid Analysis, CFF Explorer, Procmon, Regshot, FakeNet, Wireshark, ProcDOT, dnSpy.
+- **Resultado:** Identificación de ransomware CryptoLocker, troyano downloader con C2 y loader ofuscado en .NET. Documentación de persistencia y comportamiento malicioso.
+- [📂 Ver proyecto completo](./05-malware-analysis-cryptolocker/)
+  
+### 6. 📋 Plan Director de Seguridad (próximamente)
 - Basado en mi TFM (completamente anonimizado). Incluye análisis de riesgos MAGERIT, roadmap 3 años, políticas ISO 27001 y matriz de cumplimiento LOPD. Aplicable a entidades financieras, tecnológicas o industriales.
 
-### 6. 🔐 Políticas de Protección de Datos (LOPD/GDPR)
+### 7. 🔐 Políticas de Protección de Datos (LOPD/GDPR)
 - Documento de Delegado de Protección de Datos (DPD), registro de actividades de tratamiento (RAT), evaluación de impacto (EIPD) y gap analysis.
-
-### 7. 🦠 Análisis de malware (próximamente)
-- Informe de análisis de muestra pública (sandbox, procesos, llamadas al sistema, reglas YARA).
 
 ### 8. 🔒 Criptografía aplicada (próximamente)
 - Guía de implementación de hashes, cifrado simétrico/asimétrico, PKI y comandos prácticos con OpenSSL.
