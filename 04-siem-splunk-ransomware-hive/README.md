@@ -3,7 +3,7 @@
 ## 📌 Contexto
 
 Este proyecto simula la detección del **ransomware Hive** utilizando el SIEM **Splunk Enterprise**.  
-Se comienza con el informe técnico de INCIBE-CERT, se mapean las técnicas del malware al framework **MITRE ATT&CK** y se diseñan consultas **SPL** para identificar comportamientos maliciosos en logs reales (EVTX-ATTACK-SAMPLES). Finalmente, se construyen dashboards que consolidan las detecciones.
+Se parte del informe técnico de INCIBE-CERT, se mapean las técnicas del malware al framework **MITRE ATT&CK** y se diseñan consultas **SPL** para identificar comportamientos maliciosos en logs reales (EVTX-ATTACK-SAMPLES). Finalmente, se construyen dashboards que consolidan las detecciones.
 
 ## 🎯 Objetivo
 
@@ -25,6 +25,46 @@ Se comienza con el informe técnico de INCIBE-CERT, se mapean las técnicas del 
 ## 📊 Ejemplos de consultas SPL
 
 ### Eliminación de copias de seguridad (T1490)
-```spl
-index=* source="evtx_data.csv" sourcetype="csv" 
-CommandLine="*vssadmin delete shadows*" OR CommandLine="*wmic shadowcopy delete*"
+
+    index=* source="evtx_data.csv" sourcetype="csv" 
+    CommandLine="*vssadmin delete shadows*" OR CommandLine="*wmic shadowcopy delete*"
+
+### Cifrado de archivos (T1486)
+
+    index=* source="evtx_data.csv" sourcetype="csv" 
+    TargetFilename="*.hive" OR TargetFilename="*.cggbt"
+
+### Desactivación de Windows Defender (T1562.001)
+
+    index=* source="evtx_data.csv" sourcetype="csv" 
+    CommandLine="*reg.exe* DisableRealtimeMonitoring" OR CommandLine="*powershell*Set-MpPreference*"
+
+## 📈 Dashboards implementados
+
+- **Ejecución de comandos maliciosos** – eventos de `cmd.exe`, `powershell.exe`
+- **Eliminación de copias de seguridad** – comandos `vssadmin`, `wmic`
+- **Desactivación de herramientas de protección** – cambios en registro
+- **Cifrado de archivos** – creación de archivos con extensiones `.hive`, `.cggbt`
+- **Creación de tareas programadas** – uso de `schtasks.exe`
+
+*(Las capturas de pantalla de los dashboards se incluyen en el PDF adjunto)*
+
+## 🛠️ Herramientas y fuentes de datos
+
+- **Splunk Enterprise** – SIEM para análisis y visualización
+- **EVTX-ATTACK-SAMPLES** (GitHub) – logs de ejemplo con eventos de Sysmon
+- **Informe INCIBE-CERT** – análisis técnico del ransomware Hive
+- **MITRE ATT&CK** – marco de referencia para tácticas y técnicas
+
+## 📎 Documento completo
+
+[📄 Descargar informe en PDF](./04-hive-ransomware-splunk.pdf)
+
+## ⚠️ Nota de confidencialidad
+
+Este proyecto se ha realizado con **datos de ejemplo y logs públicos**.  
+Los nombres de usuario, fechas exactas y referencias institucionales han sido anonimizados. El contenido es puramente demostrativo.
+
+---
+
+*Proyecto adaptado para portafolio profesional – Mayo 2026*
