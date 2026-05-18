@@ -44,11 +44,14 @@ Bienvenido a mi portafolio profesional. Este repositorio demuestra mis habilidad
 - **Metodologías:** LOPDP, ISO 27701, MAGERIT v3.0, NIST CSF.
 - [📁 Ver proyecto completo](./03-data-protection-implementation/)
 
-### 4. 📋 Plan Director de Seguridad (próximamente)
-- Basado en mi TFM (completamente anonimizado). Incluye análisis de riesgos MAGERIT, roadmap 3 años, políticas ISO 27001 y matriz de cumplimiento LOPD. Aplicable a entidades financieras, tecnológicas o industriales.
+### 4. 🦠 Detección de Ransomware Hive con Splunk y MITRE ATT&CK
+- **Técnicas:** Mapeo MITRE ATT&CK (T1059.003, T1490, T1562.001, T1486, T1053.005), consultas SPL, dashboards en Splunk.
+- **Herramientas:** Splunk Enterprise, logs EVTX-ATTACK-SAMPLES.
+- **Resultado:** Identificación de comportamientos de ransomware (eliminación de backups, cifrado de archivos, desactivación de defensas, persistencia).
+- [📂 Ver proyecto completo](./04-siem-splunk-ransomware-hive/)
 
-### 5. 📊 Monitorización y Data Mining con Splunk
-- Construcción de dashboards para detección de intentos de login fallidos, tráfico anómalo y alertas en tiempo real. Consultas SPL y análisis de tendencias.
+### 5. 📋 Plan Director de Seguridad (próximamente)
+- Basado en mi TFM (completamente anonimizado). Incluye análisis de riesgos MAGERIT, roadmap 3 años, políticas ISO 27001 y matriz de cumplimiento LOPD. Aplicable a entidades financieras, tecnológicas o industriales.
 
 ### 6. 🔐 Políticas de Protección de Datos (LOPD/GDPR)
 - Documento de Delegado de Protección de Datos (DPD), registro de actividades de tratamiento (RAT), evaluación de impacto (EIPD) y gap analysis.
