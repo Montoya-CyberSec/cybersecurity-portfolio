@@ -113,4 +113,4 @@ Ingeniero en Telecomunicaciones y Máster en Ciberseguridad. Actualmente me dese
 📢 **Busco oportunidades como OSI, Auditor Interno o Consultor GRC en cualquier sector que valore una seguridad resiliente y alineada al negocio.** Si mi perfil encaja con tu búsqueda, contáctame.
 ---
 
-*Última actualización: Abril 2026 – Este portafolio se actualiza constantemente.*
+*Última actualización: Junio 2026 – Este portafolio se actualiza constantemente.*
