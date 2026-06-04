@@ -50,10 +50,10 @@ Bienvenido a mi portafolio profesional. Este repositorio demuestra mis habilidad
 - **Resultado:** Identificación de comportamientos de ransomware (eliminación de backups, cifrado de archivos, desactivación de defensas, persistencia).
 - [📂 Ver proyecto completo](./04-siem-splunk-ransomware-hive/)
 
-### 5. 🦠 Análisis de malware (CryptoLocker, troyano y .NET loader)
-- **Técnicas:** Análisis estático y dinámico, hashing MD5/Imphash, extracción de IoCs, inspección de importaciones/recursos, monitorización de red/registro/procesos, decompilación con dnSpy.
-- **Herramientas:** VirusTotal, Hybrid Analysis, CFF Explorer, Procmon, Regshot, FakeNet, Wireshark, ProcDOT, dnSpy.
-- **Resultado:** Identificación de ransomware CryptoLocker, troyano downloader con C2 y loader ofuscado en .NET. Documentación de persistencia y comportamiento malicioso.
+### 5. 🦠 Análisis de malware (CryptoLocker y Troyano downloader)
+- **Técnicas:** Análisis estático y dinámico, hashing MD5/Imphash, extracción de IoCs, inspección de importaciones/recursos, monitorización de red/registro/procesos.
+- **Herramientas:** VirusTotal, Hybrid Analysis, CFF Explorer, Procmon, Regshot, FakeNet, Wireshark, ProcDOT.
+- **Resultado:** Identificación de ransomware CryptoLocker (estático) y troyano downloader con C2 (dinámico). Documentación de persistencia, evasión y comunicación maliciosa.
 - [📂 Ver proyecto completo](./05-malware-analysis-cryptolocker/)
   
 ### 6. 📋 Plan Director de Seguridad (próximamente)
